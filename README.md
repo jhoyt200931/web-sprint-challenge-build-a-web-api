@@ -61,10 +61,37 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+
+Some of the core features of node.js are: Writing JavaScript outside of the browser which minimizes the need for switching between languages and contexts between front-end and backend, it’s synchronous so it can take better advantage of the machine it is running on, and it gives you access to a very large library of modules to use on your server, making development easier and more efficient.
+Some of the core features of Express are: The ability to build web apps, serve single page applications, and building web services that work with JSON, this is useful because it is simple, and able to take away a lot of the more tedious aspects of writing a web application
+
+
 1. Understand and explain the use of Middleware?
+
+Middleware is used to handle certain actions on the server, and almost everything written in a node API is middleware, it’s commonly used to handle CRUD operations as well as authentication of information in request bodies and headers to allow the CRUD operations to function properly.
+
+
 1. The basic principles of the REST architectural style.
+
+The basic principles of the REST architectural style are: 
+	Everything is a resource, 
+	Everything is available through a unique URL,
+	Resources can be accessed multiple ways,
+	It is stateless,
+	Everything happens via HTTP methods
+
+
 1. Understand and explain the use of Express Routers.
+
+The use of Express Routers functions as a way to route requests to the correct method, by using the ability to only activate the middleware in the routes by matching them up to a specific URL, allowing you to use the same type of method for different URLs.
+
+
+
 1. Describe tooling used to manually test the correctness of an API.
+
+Some of the tools used to manually test APIs are applications like Postman and Insomnia, which allow you to send HTTP requests to your API to test if you get the correct responses.
+
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
