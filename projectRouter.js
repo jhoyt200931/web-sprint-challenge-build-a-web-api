@@ -13,7 +13,7 @@ router.post('/', (req, res) => {
     } else {
         projectDB.insert(body)
             .then(project => {
-                
+                res.status(201).json(project);
             })
             .catch(error => {
                 console.log(error);
